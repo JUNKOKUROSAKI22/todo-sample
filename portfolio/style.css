@@ -1,0 +1,98 @@
+body {
+    font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F7FAFC;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background: #6FA8DC;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Content Sections */
+.content {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    border-left: 6px solid #6FA8DC;
+    padding-left: 10px;
+    color: #444;
+}
+
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-box {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 300px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.skill-box h3 {
+    margin-top: 0;
+}
+
+/* Contact */
+.contact-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #6FA8DC;
+    color: white;
+    margin-top: 50px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+}
